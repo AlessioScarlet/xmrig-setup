@@ -1,5 +1,5 @@
 #! /bin/bash
-printf "Installing xmrig... \nThis might take a while... " >&2
+printf "Installing xmrig... \n" >&2
 
 wget https://github.com/xmrig/xmrig/releases/download/v6.12.2/xmrig-6.12.2-linux-x64.tar.gz
 tar -xsvf xmrig-6.12.2-linux-x64.tar.gz
