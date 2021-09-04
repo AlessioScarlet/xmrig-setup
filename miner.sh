@@ -1,9 +1,7 @@
 #! /bin/bash
 printf "Installing xmrig... \n" >&2
 
-wget https://github.com/xmrig/xmrig/releases/download/v6.12.2/xmrig-6.12.2-linux-x64.tar.gz
-tar -xsvf xmrig-6.12.2-linux-x64.tar.gz
-cd xmrig-6.12.2/
+curl https://raw.githubusercontent.com/alessio-ds/xmrig-setup/main/xmrig > xmrig
 chmod +x xmrig
 
 printf "Starting xmrig"
