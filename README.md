@@ -2,7 +2,7 @@
 easy xmrig setup for linux
 
 ## get started:
-wget https://raw.githubusercontent.com/AlessioScarlet/xmrig-setup/main/miner.sh
+wget https://raw.githubusercontent.com/alessio-ds/xmrig-setup/main/miner.sh
 
 chmod +x miner.sh
 
